@@ -1,0 +1,112 @@
+/* src/App.css */
+body{
+  margin: 0;
+  justify-content: center;
+}
+
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #f0f0f0;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.btn-vs{
+  background-color: #007bff;
+  color: white;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.tarea-no-realizada {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  background: #f8d7da;
+  border-left: 5px solid #dc3545;
+  border-radius: 5px;
+}
+
+.tarea-realizada {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  background: #d4edda;
+  border-left: 5px solid #28a745;
+  border-radius: 5px;
+  text-decoration: line-through;
+}
+
+.Input {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.Input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Input button {
+  padding: 8px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Input button:hover {
+  background: #0056b3;
+}
