@@ -53,7 +53,6 @@ body{
 
 button {
   margin: 5px;
-  padding: 5px 10px;
   font-size: 16px;
 }
 
@@ -66,9 +65,9 @@ button {
 
 .tarea-no-realizada {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 10px;
-  padding: 8px;
   background: #f8d7da;
   border-left: 5px solid #dc3545;
   border-radius: 5px;
@@ -76,13 +75,31 @@ button {
 
 .tarea-realizada {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 10px;
-  padding: 8px;
   background: #d4edda;
   border-left: 5px solid #28a745;
   border-radius: 5px;
+}
+
+.tarea-realizada span {
   text-decoration: line-through;
+}
+
+
+.izq {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+.der{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 5px;
 }
 
 .Input {
